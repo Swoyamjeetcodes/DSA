@@ -36,11 +36,11 @@ class LRUCache {
     }
 
     private void insert(Node node) {
-        Node prev = this.right.prev;
+        Node prev = right.prev;
         prev.next = node;
         node.prev = prev;
-        node.next = this.right;
-        this.right.prev = node;
+        node.next = right;
+        right.prev = node;
     }
 
     public int get(int key) {
