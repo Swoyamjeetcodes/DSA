@@ -5,10 +5,10 @@ public class Node {
     Node next;
 
     public Node(int key, int val) {
-        this.key = key;
-        this.val = val;
-        this.prev = null;
-        this.next = null;
+        this.key = key;   // required (parameter shadows field)
+        this.val = val;   // required
+        prev = null;      // 'this' not needed
+        next = null;      // 'this' not needed
     }
 }
 
@@ -20,12 +20,12 @@ class LRUCache {
     private Node right;
 
     public LRUCache(int capacity) {
-        this.cap = capacity;
-        this.cache = new HashMap<>();
-        this.left = new Node(0, 0);
-        this.right = new Node(0, 0);
-        this.left.next = this.right;
-        this.right.prev = this.left;
+        cap = capacity;              // 'this' not needed
+        cache = new HashMap<>();     // 'this' not needed
+        left = new Node(0, 0);       // 'this' not needed
+        right = new Node(0, 0);      // 'this' not needed
+        left.next = right;           // 'this' not needed
+        right.prev = left;           // 'this' not needed
     }
 
     private void remove(Node node) {
@@ -62,7 +62,7 @@ class LRUCache {
         insert(newNode);
 
         if (cache.size() > cap) {
-            Node lru = this.left.next;
+            Node lru = left.next;
             remove(lru);
             cache.remove(lru.key);
         }
