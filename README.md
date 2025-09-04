@@ -23,11 +23,13 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Array
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Swoyamjeetcodes/DSA/tree/master/0035-search-insert-position) |
 | [0287-find-the-duplicate-number](https://github.com/Swoyamjeetcodes/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0792-binary-search](https://github.com/Swoyamjeetcodes/DSA/tree/master/0792-binary-search) |
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Swoyamjeetcodes/DSA/tree/master/0035-search-insert-position) |
 | [0287-find-the-duplicate-number](https://github.com/Swoyamjeetcodes/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0792-binary-search](https://github.com/Swoyamjeetcodes/DSA/tree/master/0792-binary-search) |
 ## Bit Manipulation
