@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/Swoyamjeetcodes/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/Swoyamjeetcodes/DSA/tree/master/0567-permutation-in-string) |
+| [2481-strictly-palindromic-number](https://github.com/Swoyamjeetcodes/DSA/tree/master/2481-strictly-palindromic-number) |
 ## String
 |  |
 | ------- |
@@ -74,4 +75,12 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/Swoyamjeetcodes/DSA/tree/master/0374-guess-number-higher-or-lower) |
+## Math
+|  |
+| ------- |
+| [2481-strictly-palindromic-number](https://github.com/Swoyamjeetcodes/DSA/tree/master/2481-strictly-palindromic-number) |
+## Brainteaser
+|  |
+| ------- |
+| [2481-strictly-palindromic-number](https://github.com/Swoyamjeetcodes/DSA/tree/master/2481-strictly-palindromic-number) |
 <!---LeetCode Topics End-->
